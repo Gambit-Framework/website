@@ -1,12 +1,38 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #0c0c0c, #2b2a2a);
+}
+
 .header-div {
     margin: auto;
     width: 50%;
 }
 
 .header-div h1 {
+    font-size: 36px;
     text-align: center;
 }
 
 .header-div p {
     text-align: center;
+}
+
+.header-div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
