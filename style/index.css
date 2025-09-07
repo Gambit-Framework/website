@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     font-size: 18px;
     border-radius: 8px;
-    color: #ffffff;
+    color: #f8f8f8;
 }
 
 html {
@@ -14,12 +14,32 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, #0c0c0c, #2b2a2a);
+    background-color: #1f1f1f;
+}
+
+.menuBar-div {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    background-color: #181818;
+    border-bottom: 2px solid #a8a8a8;
+}
+
+.menuBar-div a {
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menuBar-div a:hover {
+    background-color: #4a4d4e;
 }
 
 .header-div {
     margin: auto;
     width: 50%;
+    max-width: 700px;
 }
 
 .header-div h1 {
